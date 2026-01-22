@@ -1,11 +1,12 @@
 :root {
-  --color-bg: #b2ecfa;         /* fond bleu pastel */
-  --color-text: #2c3e50;       /* texte anthracite lisible */
-  --color-accent: #3498db;     /* bleu vif pour titres */
-  --color-link: #e67e22;       /* orange chaud pour les liens */
-  --color-card: #eaf6fb;       /* fond clair pour les cartes */
-  --color-header: #a0cfe0;     /* bleu-gris doux pour header/footer */ 
-}
+  --color-bg: #FFF9E6; /* fond or très pâle */ 
+  --color-text: #1F1F1F; /* texte anthracite élégant */
+  --color-accent: #002366; /* bleu roi pour titres et accents */ 
+  --color-link: #B497BD; /* violet parme pour les liens */ 
+  --color-card: #FFFDF7; /* ivoire doux pour les cartes */
+  --color-header: #002366; /* header/footer bleu roi */ 
+  --color-gold: #FFD700; /* or pur */ 
+  --color-parme: #B497BD; /* violet parme */ }
 
 body {
   font-family: 'Georgia', serif;
