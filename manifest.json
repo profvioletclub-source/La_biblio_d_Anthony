@@ -1,6 +1,6 @@
 {
-  "name": "Les lectures d'Anthony",
-  "short_name": "Les lectures d'Anthony",
+  "name": "La biblio d'Anthony",
+  "short_name": "La biblio d'Anthony",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#002366",
