@@ -59,6 +59,45 @@
   <section>
     <p>Nouveauté : vos textes peuvent être publiés à tout moment ! Contactez-nous !</p>
   </section>  -->
+
+  <table id="livresTable">
+    <thead>
+      <tr>
+        <th>TITRE</th>
+        <th>TOME</th>
+        <th>PARTIE</th>
+        <th>AUTEUR</th>
+        <th>DATE DE PUBLICATION</th>
+        <th>SUJET</th>
+        <th>NOTE</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+  </table>
+
+  <button onclick="ajouterLigne()">Ajouter un livre</button>
+
+  <script>
+  function ajouterLigne() {
+    const table = document.getElementById("livresTable").querySelector("tbody");
+    const ligne = document.createElement("tr");
+
+    const colonnes = ["titre","tome","partie","auteur","date","sujet","note"];
+
+    colonnes.forEach(col => {
+      const td = document.createElement("td");
+      const input = document.createElement("input");
+      input.type = "text";
+      input.placeholder = col.toUpperCase();
+      td.appendChild(input);
+      ligne.appendChild(td);
+    });
+
+    table.appendChild(ligne);
+  }
+  </script>
   
   <footer>
     <p>&copy; 2026 Rave - Tous droits réservés</p>
